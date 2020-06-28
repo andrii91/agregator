@@ -155,7 +155,7 @@
   }
 
   .reviews-carousel {
-    padding-bottom: 19px;
+    //    padding-bottom: 19px;
     position: relative;
   }
 
@@ -197,7 +197,7 @@
   }
 
   .registration {
-    padding: 56px  0 0;
+    padding: 56px 0 0;
   }
 
   .registration-form {
@@ -273,20 +273,26 @@
   .registration .container:before {
     display: none;
   }
+
   .footer-contacts {
     margin-bottom: 24px;
+
     a {
       text-align: left;
     }
   }
+
   .footer-list {
     margin-bottom: 22px;
   }
+
   .footer {
     padding-top: 40px;
     padding-bottom: 17px;
+
     .container {
       position: relative;
+
       &:before {
         content: "";
         height: 1px;
@@ -296,23 +302,28 @@
         bottom: 58px;
       }
     }
+
     .logo {
       img {
         max-width: 130px;
       }
     }
+
     .footer-list {
       margin-bottom: 50px;
-     
+
     }
+
     .footer-pay {
       text-align: right;
-      
+
       li {
         &:last-child {
           margin-right: 0;
         }
+
         margin: 0 8px;
+
         img {
           max-width: inherit;
           max-height: 21.16px;
@@ -320,11 +331,112 @@
       }
     }
   }
+
   .registration-form {
     margin-top: 38px;
   }
+
   .registration-item .title {
     font-size: 18px;
     max-width: 332px;
+  }
+
+  /*step 1*/
+  .head-form .form-loan {
+    position: static;
+    margin-bottom: 33px;
+  }
+
+  .head-form {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .head-form .form-loan .title {
+    text-align: left;
+  }
+
+  .head-form .step-count {
+    margin-bottom: 32px;
+  }
+
+  .form-row {
+    display: block;
+  }
+
+  .form-label {
+    margin-bottom: 16px;
+  }
+
+  .head-form .checkbox-label,
+  .form-row {
+    margin-bottom: 32px;
+  }
+
+  /*end step 1*/
+
+  /*step2*/
+
+  .step2 .form-label,
+  .step2 .form-label.small {
+    max-width: 100%;
+  }
+
+  .order-btn {
+    padding: 10px 17px;
+  }
+
+  .step3 .form-label,
+  .step3 .form-label.small {
+    max-width: 100%;
+  }
+
+  .passport_type {
+    display: block;
+    position: relative;
+    padding-right: 55px;
+
+    .passport_type-input {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%) rotate(90deg);
+    }
+  }
+
+  .mb56,
+  .step3 .form-row.mb56,
+  .step2 .form-row.mb56 {
+    margin-bottom: 32px;
+  }
+
+  .order-btn.prev-btn {
+    border: 0;
+  }
+
+  /**/
+
+  .card-back {
+    padding-top: 95px;
+    position: static;
+    margin-top: -65px;
+  }
+
+  .pay-card {
+    margin-bottom: 24px;
+  }
+
+  .pay-card .card-front {
+    padding: 24px 15px;
+  }
+  .card-input input {
+    width: 58px;
+  }
+  .card-selects {
+    text-align: left;
+  }
+  .s_results {
+    padding-top: 110px;
   }
 }
