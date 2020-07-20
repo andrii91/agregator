@@ -1001,7 +1001,7 @@ body {
   position: relative;
   max-width: 271px;
 
-  input {
+  input, select {
     display: block;
     width: 100%;
     max-width: 100%;
@@ -1026,6 +1026,7 @@ body {
       line-height: 18px;
       color: #94959A;
     }
+    
 
     &.date {
       padding-right: 16px;
@@ -1045,6 +1046,17 @@ body {
         background-size: 20px;
       }
     }
+  }
+  
+  select {
+    	-webkit-appearance: none;
+	-ms-appearance: none;
+	appearance: none!important;
+	-moz-appearance: none; 
+    background-image: url('../images/down.svg');
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    background-size: 25px;
   }
 }
 
